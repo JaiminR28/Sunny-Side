@@ -135,6 +135,18 @@ DEFAULT:
 .traverse--button{
 	margin-top: 10rem;
 }
+
+/* MAIN */
+
+/* FEATURES */
+.feature--container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.feature--container img{
+	width: 50%;
+}
 /* Footer */
 
 .attribution {
