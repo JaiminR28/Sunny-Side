@@ -2,18 +2,26 @@
 
 ---- 01 TYP0GRAPHY SYSTEM
 
+		FONT FAMILY
+				font-family: 'Barlow',
+				sans-serif;
+				font-family: 'Fraunces',
+				serif;
+
 		FONT SIZE SYSTEM (px)
-			     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+			10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 
-                 Font Weight: 
-				 
+                Font Weight: 
+		Barlow : 200, 300, 400, 500, 600
+		farunces; Bold 700;  Bold 700 Italic;  ExtraBold 800;  ExtraBold 800 Italic;  Black 900 Black 900 Italic
+		
 
                 Line Heights:
-				 
+		
                 
-				 Letter Spacing:
-				 
+		Letter Spacing:
+			
 ---- 02 COLORS
 
 - Soft-red: #fe7867
@@ -40,7 +48,7 @@ DEFAULT:
 ---- 05 WHITESPACE
 
 -SPACING SYSTEM (px)
-     2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+	2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
 
@@ -56,8 +64,12 @@ DEFAULT:
 	box-sizing: border-box;
 }
 
-body {
+html {
 	/*  10px / 16px = 0.625 =  62.5% */
 	/* Percentage of user's browser font-size setting */
 	font-size: 62.5%;
+}
+body{
+	font-family: 'Barlow',sans-serif;
+	font-weight: 400;
 }
