@@ -256,6 +256,80 @@ DEFAULT:
 .photography-design-description{
 	color: hsla(198, 62%, 26%, 0.75);
 }
+
+/* Testimonials */
+
+.testimonials--container{
+	padding: 8rem 14rem;
+}
+
+.testimonials--heading{
+	font-family: 'Fraunces', serif;
+	text-transform: uppercase;
+	margin: auto;
+	width: max-content;
+	color: #a7abae;
+	font-size: 2.4rem;
+	letter-spacing: 0.2em;
+}
+
+.testimonials--grid{
+	margin-top: 5.2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2.8rem;
+}
+.testimonial{
+	display: grid;
+	min-height: 6rem;
+	place-items: center;	
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.testimonial--user-img{
+	width: 8rem;
+	height: 8rem;
+	color: #19536b;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.user--img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.testimonial--user-review{
+	color: #676a7a;
+	font-size: 1.8rem;
+	margin-top: 3rem;
+	line-height: 175%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.testimonial--user-about{
+	display: grid;
+	grid-template-rows: repeat(2, 2rem);
+	place-items: center;
+}
+
+.testimonial--user-about h3{
+	font-family: 'Fraunces', serif;
+		text-transform: uppercase;
+		margin: auto;
+		width: max-content;
+		color: #23303e;
+		font-size: 1.4rem;
+}
+
+.testimonial--user-about p{
+	color: #a7abae;
+	font-size: 1.2rem;
+	line-height: 150%;
+	font-weight: 600;
+}
 /* Footer */
 
 .attribution {
