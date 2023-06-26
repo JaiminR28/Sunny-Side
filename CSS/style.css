@@ -69,6 +69,7 @@ DEFAULT:
 
 .Company-logo{
 	width: 14rem;
+	
 }
 
 .main--nav {
@@ -368,9 +369,8 @@ DEFAULT:
 /* Footer */
 
 .footer--image-section{
-	display: flex;
-	width: 100%;
-	height: 40rem;
+	display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .footer--image{
